@@ -20,3 +20,6 @@
 //         body.classList.remove('scroll-hide');
 //     }
 // })
+
+
+let gfdsg = document.querySelectorAll('fgd');
