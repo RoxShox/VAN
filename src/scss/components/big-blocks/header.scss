@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    height: 104px;
+    padding: 0px 100px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(2px);
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 104px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &__item + &__item{
+        margin-left: 70px;
+    }
+    &__tel{
+        font-size: 16px;
+        margin-right: 14px;
+    }
+    &__phone-text{
+        font-size: 14px;
+        opacity: 0.7;
+    }
+    &__adress{
+        display: flex;
+        align-items: center;
+    }
+    &__adress-text{
+        font-size: 16px;
+        margin-left: 14px;
+    }
+
+
+}

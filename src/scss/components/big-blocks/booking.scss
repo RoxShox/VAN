@@ -1,0 +1,91 @@
+.booking{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__inner{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        justify-content: space-between;
+    }
+    &__subtitle{
+        padding-left: 85px;
+        position: relative;
+        font-weight: 400;
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #000000;
+        text-transform: capitalize;
+        &::before{
+            width: 60px;
+            left: 0;
+            opacity: 1;
+        }
+    }
+    &__title{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 72px;
+        margin-bottom: 25px;
+        max-width: 730px;
+    }
+    &__btn{
+        width: 238px;
+        height: 48px;
+        background: #000000;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        opacity: 0.9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    &__right-box{
+        max-width: 440px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    &__form-title{
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        max-width: 276px;
+        margin: 30px auto 25px;
+        span{
+            color: #CB997E;
+            
+        }
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__form-input{
+        width: 370px;
+        height: 54px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.7);
+        outline: none;
+        margin-bottom: 15px;
+        padding: 0 20px;
+        &::placeholder{
+            font-weight: 400;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+    &__form-btn{
+        margin: 10px 0 35px 0;
+    }
+}

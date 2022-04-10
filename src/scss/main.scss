@@ -1,0 +1,30 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// small blocks
+@import "components/small-blocks/btn";
+@import "components/small-blocks/modal";
+@import "components/small-blocks/dropdown";
+@import "components/small-blocks/burger";
+@import "components/small-blocks/burger-menu";
+@import "components/small-blocks/title";
+@import "components/small-blocks/subtitle";
+
+
+// Big blocks
+@import "components/big-blocks/header";
+@import "components/big-blocks/booking";
+@import "components/big-blocks/facilities";
+@import "components/big-blocks/about";
+@import "components/big-blocks/question";
+
+
+
+@import "components/big-blocks/footer";
+
+
+
+
+@import "block/*.scss";

@@ -1,0 +1,40 @@
+.question{
+    padding-top: 40px;
+    &__inner{
+        text-align: center;
+    }
+    &__subtitle{
+        display: inline-block;
+    }
+    &__title{
+        margin-bottom: 35px;
+    }
+    & .tab__items{
+        display: flex;
+        justify-content: center;
+    }
+    .tab__item + .tab__item{
+        margin-left: 90px;
+    }
+    & .tab__item{
+        font-weight: 500;
+        font-size: 20px;
+        color: rgba(0,0,0, 0.4);
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            bottom: -12px;
+            width: 100px;
+            height: 1px;
+            background: #000000;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+        }
+        
+    }
+ 
+
+
+}
