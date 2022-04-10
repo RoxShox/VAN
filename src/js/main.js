@@ -20,5 +20,3 @@
 //         body.classList.remove('scroll-hide');
 //     }
 // })
-
-let body = document.querySelector('body');
